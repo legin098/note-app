@@ -3,6 +3,7 @@ import React from "react";
 import { StarOutline } from "@mui/icons-material";
 import { Link as RouterLink, Navigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import { startNewNote } from "../../store/notes";
 
 export const NoNotesCreatedView = () => {
   const dispatch = useDispatch();
